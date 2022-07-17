@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Repte3--Login-SignUp/static/css/main.38d5f098.css",
+    "main.js": "/Repte3--Login-SignUp/static/js/main.cc583bb1.js",
+    "static/media/Other1.png": "/Repte3--Login-SignUp/static/media/Other1.43695c54fa089a0e4555.png",
+    "static/media/Other.png": "/Repte3--Login-SignUp/static/media/Other.a28b7b3d91ad4043f3ab.png",
+    "index.html": "/Repte3--Login-SignUp/index.html",
+    "main.38d5f098.css.map": "/Repte3--Login-SignUp/static/css/main.38d5f098.css.map",
+    "main.cc583bb1.js.map": "/Repte3--Login-SignUp/static/js/main.cc583bb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38d5f098.css",
+    "static/js/main.cc583bb1.js"
+  ]
+}
