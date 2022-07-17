@@ -11,14 +11,12 @@ function App() {
     email: "",
     password: "",
     confirmPassword: "",
-
   })
 
   function handleChange(event) {
 
     const { name, value } = event.target
     setFormData(prevFormData => {
-
       return {
         ...prevFormData,
         [name]: value
