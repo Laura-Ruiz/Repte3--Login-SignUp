@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+## Repte #3- Login & Sign Up
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripció
 
-## Available Scripts
+Aquest projecte es basa en desenvolupar les vistes de login i signup tenint en compte la gestió derrors i les restriccions que hi ha daccés quan iniciem sessió.
 
-In the project directory, you can run:
+## Objectius
 
-### `npm start`
+- Veure la vista de Login.
+- Veure la vista de Sinup.
+- No enviar el formulari si hi ha algún input buit.
+- Email amb format correcte sinó caldrà mostrar un popup d'error.
+- La contrsenya haurà de complir:
+  - Mínim 6 caràcters.
+  - Utilitzar almenys una majúscula.
+  - Utilitzar almenys una minúscula.
+  - Contenir algun caràcter especial: . | , | \* | + | -
+- No es podrà enviar el formulari si les contrasenyes no coincideixen (haurà de sortir un missatge d'error).
+- L'username no pot contenir espais ni punts.
+- Fer deploy de la web.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instalació
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Clonar el repositori https://github.com/Laura-Ruiz/repte2-AcceptCookie.git a un repositori local.
+- Instalar-ho tot amb npm install.
+- Obrir projecte amb npm start.
 
-### `npm test`
+## Utilització
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Omplir els camps del formulari amb les condicions necessaries. En cas de no complir-les, sortirà un missatge d'error i no s'enviarà el formulari.

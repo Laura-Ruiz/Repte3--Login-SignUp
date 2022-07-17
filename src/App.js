@@ -2,14 +2,13 @@ import SignUp from "./components/SignUp"
 import React from "react"
 import Login from "./components/Login"
 import { Routes, Route } from "react-router-dom"
+import './styled/styles.css'
 
 function App() {
   const [formData, setFormData] = React.useState({
     fullName: "",
-    userNameLogin: "",
     userName: "",
     email: "",
-    passwordLogin: "",
     password: "",
     confirmPassword: "",
 
@@ -28,7 +27,7 @@ function App() {
     })
   }
 
-  console.log(formData)
+
   return (
     <div className="App">
       <Routes>
