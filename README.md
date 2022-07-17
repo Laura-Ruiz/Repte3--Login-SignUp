@@ -21,7 +21,7 @@ Aquest projecte es basa en desenvolupar les vistes de login i signup tenint en c
 
 ## Instalació
 
-- Clonar el repositori https://github.com/Laura-Ruiz/repte2-AcceptCookie.git a un repositori local.
+- Clonar el repositori https://github.com/Laura-Ruiz/Repte3--Login-SignUp.git a un repositori local.
 - Instalar-ho tot amb npm install.
 - Obrir projecte amb npm start.
 
